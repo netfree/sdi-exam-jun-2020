@@ -1,0 +1,10 @@
+ro/ubb/exam/client/ro/ubb/exam/client/SensorApp.java
+ ro.ubb.exam.client.ro.ubb.exam.client.SensorApp
+ro/ubb/exam/client/SensorApp.java
+ ro.ubb.exam.client.SensorApp
+ro/ubb/exam/client/service/SensorServiceClient.java
+ ro.ubb.exam.client.service.SensorServiceClient
+ro/ubb/exam/client/tcp/TcpClient.java
+ ro.ubb.exam.client.tcp.TcpClient
+ro/ubb/exam/client/ui/Console.java
+ ro.ubb.exam.client.ui.Console
