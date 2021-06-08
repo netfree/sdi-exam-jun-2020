@@ -1,5 +1,6 @@
 package ro.ubb.exam.server;
 
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import ro.ubb.exam.common.Message;
 import ro.ubb.exam.common.SensorAdaptor;
 import ro.ubb.exam.common.SensorService;
@@ -13,12 +14,16 @@ import java.util.concurrent.Future;
 
 public class ServerApp {
     public static void main(String[] args) {
+
+        AnnotationConfigApplicationContext context=
+                new AnnotationConfigApplicationContext("ro.ubb.exam.server.config");
+
         ExecutorService executorService = Executors.newFixedThreadPool(
                 Runtime.getRuntime().availableProcessors()
         );
 
         TcpServer tcpServer = new TcpServer(executorService, SensorService.PORT);
-        SensorService sensorService = new SensorServiceImpl(executorService);
+        SensorService sensorService = context.getBean(SensorService.class);
 
         tcpServer.addHandler("addSensorData", request -> {
             Future<Boolean> res = sensorService.addSensorData(SensorAdaptor.messageToSensor(request.getBody()));
