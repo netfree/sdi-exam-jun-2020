@@ -2,4 +2,6 @@ rootProject.name = 'exam'
 include 'sensor-app'
 include 'server-app'
 include 'common'
+include 'monitor-core'
+include 'monitor-web'
 

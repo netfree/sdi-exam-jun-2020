@@ -1,0 +1,21 @@
+ro/ubb/exam/web/converter/BaseConverter.java
+ ro.ubb.exam.web.converter.BaseConverter
+ro/ubb/exam/web/config/WebConfig.java
+ ro.ubb.exam.web.config.WebConfig
+ ro.ubb.exam.web.config.WebConfig$1
+ro/ubb/exam/web/converter/Converter.java
+ ro.ubb.exam.web.converter.Converter
+ro/ubb/exam/web/dto/BaseDto.java
+ ro.ubb.exam.web.dto.BaseDto
+ro/ubb/exam/web/dto/SensorsDataDto.java
+ ro.ubb.exam.web.dto.SensorsDataDto
+ro/ubb/exam/web/converter/SensorDataConverter.java
+ ro.ubb.exam.web.converter.SensorDataConverter
+ro/ubb/exam/web/config/Initializer.java
+ ro.ubb.exam.web.config.Initializer
+ro/ubb/exam/web/dto/SensorDataDto.java
+ ro.ubb.exam.web.dto.SensorDataDto
+ro/ubb/exam/web/controller/SensorDataController.java
+ ro.ubb.exam.web.controller.SensorDataController
+ro/ubb/exam/web/config/AppLocalConfig.java
+ ro.ubb.exam.web.config.AppLocalConfig
