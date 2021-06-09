@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HashTable } from '../models/hashtable.model';
 import { Sensor } from '../models/sensor.model';
 import { SensorService } from '../sensor.service';
+import { interval, Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-sensors',
@@ -17,12 +18,16 @@ export class SensorsComponent implements OnInit {
   errorMessage : string;
   showFlag  : boolean;
   sensors: HashTable<Sensor[]> = {};
-
+  subscription: Subscription;
 
   constructor(private sensorService : SensorService) { }
 
   ngOnInit(): void {
     this.getNames();
+
+    const source = interval(1000);
+    this.subscription = source.subscribe(val => this.show());
+
   }
 
   getNames() {
