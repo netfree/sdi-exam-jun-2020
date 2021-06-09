@@ -16,4 +16,14 @@ public class SensorDataServiceImpl implements SensorDataService {
     public List<SensorData> getAllSensorData() {
         return sensorDataRepository.findAll();
     }
+
+    @Override
+    public List<SensorData> getMostRecent4(String name) {
+        return sensorDataRepository.findTop4ByNameOrderByTimestampDesc(name);
+    }
+
+    @Override
+    public List<String> getSensorNames() {
+        return sensorDataRepository.getSensorNames();
+    }
 }

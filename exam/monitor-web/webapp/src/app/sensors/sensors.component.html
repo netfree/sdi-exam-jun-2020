@@ -1,1 +1,18 @@
-<p>sensors works!</p>
+<ol class="sensors">
+    <li *ngFor="let name of sensorNames">
+        {{name}}
+    </li>
+</ol>
+
+<br>
+
+<button (click)="show(); showFlag = true">Show</button>
+
+<ol class="sensors" *ngIf="showFlag == true">
+    <li *ngFor="let name of sensorNames">
+        Sensor name: {{name}} <button>Stop</button>
+        <p *ngFor="let sensor of sensors[name]">
+            {{sensor.measurement}}
+        </p>
+    </li>
+</ol>

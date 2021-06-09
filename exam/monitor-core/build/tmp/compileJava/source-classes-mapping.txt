@@ -1,14 +1,14 @@
-ro/ubb/exam/core/service/SensorDataServiceImpl.java
- ro.ubb.exam.core.service.SensorDataServiceImpl
-ro/ubb/exam/core/model/SensorData.java
- ro.ubb.exam.core.model.SensorData
-ro/ubb/exam/core/repository/SensorDataRepository.java
- ro.ubb.exam.core.repository.SensorDataRepository
-ro/ubb/exam/core/service/SensorDataService.java
- ro.ubb.exam.core.service.SensorDataService
 ro/ubb/exam/core/model/BaseEntity.java
  ro.ubb.exam.core.model.BaseEntity
-ro/ubb/exam/core/repository/Repository.java
- ro.ubb.exam.core.repository.Repository
+ro/ubb/exam/core/model/SensorData.java
+ ro.ubb.exam.core.model.SensorData
 ro/ubb/exam/core/config/JPAConfig.java
  ro.ubb.exam.core.config.JPAConfig
+ro/ubb/exam/core/repository/Repository.java
+ ro.ubb.exam.core.repository.Repository
+ro/ubb/exam/core/service/SensorDataService.java
+ ro.ubb.exam.core.service.SensorDataService
+ro/ubb/exam/core/repository/SensorDataRepository.java
+ ro.ubb.exam.core.repository.SensorDataRepository
+ro/ubb/exam/core/service/SensorDataServiceImpl.java
+ ro.ubb.exam.core.service.SensorDataServiceImpl

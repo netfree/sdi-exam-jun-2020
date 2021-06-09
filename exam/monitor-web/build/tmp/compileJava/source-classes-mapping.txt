@@ -15,7 +15,7 @@ ro/ubb/exam/web/config/Initializer.java
  ro.ubb.exam.web.config.Initializer
 ro/ubb/exam/web/dto/SensorDataDto.java
  ro.ubb.exam.web.dto.SensorDataDto
-ro/ubb/exam/web/controller/SensorDataController.java
- ro.ubb.exam.web.controller.SensorDataController
 ro/ubb/exam/web/config/AppLocalConfig.java
  ro.ubb.exam.web.config.AppLocalConfig
+ro/ubb/exam/web/controller/SensorDataController.java
+ ro.ubb.exam.web.controller.SensorDataController

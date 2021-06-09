@@ -18,4 +18,14 @@ export class SensorService {
       .get<Sensors>(this.baseUrl);
   }
 
+  getNames(): Observable<string[]> {
+    return this.httpClient
+      .get<string[]>(this.baseUrl + "/names");
+  }
+
+  getSensorsByName(name : string) : Observable<Sensors> {
+      return this.httpClient
+    .get<Sensors>(this.baseUrl + "/getMostRecent4/" + name);
+  }
+
 }

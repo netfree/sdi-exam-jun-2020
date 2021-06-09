@@ -28,4 +28,21 @@ public class SensorDataController {
         return result;
     }
 
+    @RequestMapping(value = "/sensorData/getMostRecent4/{name}", method = RequestMethod.GET)
+    SensorsDataDto getMostRecent4(@PathVariable String name){
+
+        var result = new SensorsDataDto(
+                sensorDataConverter.convertModelsToDtos(sensorDataService.getMostRecent4(name))
+        );
+
+        return result;
+    }
+
+    @RequestMapping(value = "/sensorData/names")
+    List<String> getSensorNames(){
+        return sensorDataService.getSensorNames();
+    }
+
+
+
 }

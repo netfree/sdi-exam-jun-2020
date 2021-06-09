@@ -1,7 +1,7 @@
-ro/ubb/exam/common/Message.java
- ro.ubb.exam.common.Message
 ro/ubb/exam/common/SensorAdaptor.java
  ro.ubb.exam.common.SensorAdaptor
+ro/ubb/exam/common/Message.java
+ ro.ubb.exam.common.Message
 ro/ubb/exam/common/SensorService.java
  ro.ubb.exam.common.SensorService
 ro/ubb/exam/common/model/Sensor.java

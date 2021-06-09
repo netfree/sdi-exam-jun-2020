@@ -2,14 +2,14 @@ ro/ubb/exam/server/config/JdbcConfig.java
  ro.ubb.exam.server.config.JdbcConfig
 ro/ubb/exam/server/service/SensorServiceImpl.java
  ro.ubb.exam.server.service.SensorServiceImpl
-ro/ubb/exam/server/ServerApp.java
- ro.ubb.exam.server.ServerApp
-ro/ubb/exam/server/repository/SensorRepository.java
- ro.ubb.exam.server.repository.SensorRepository
-ro/ubb/exam/server/tcp/TcpServer.java
- ro.ubb.exam.server.tcp.TcpServer
- ro.ubb.exam.server.tcp.TcpServer$ClientHandler
 ro/ubb/exam/server/repository/SensorRepositoryImpl.java
  ro.ubb.exam.server.repository.SensorRepositoryImpl
 ro/ubb/exam/server/config/AppConfig.java
  ro.ubb.exam.server.config.AppConfig
+ro/ubb/exam/server/tcp/TcpServer.java
+ ro.ubb.exam.server.tcp.TcpServer
+ ro.ubb.exam.server.tcp.TcpServer$ClientHandler
+ro/ubb/exam/server/ServerApp.java
+ ro.ubb.exam.server.ServerApp
+ro/ubb/exam/server/repository/SensorRepository.java
+ ro.ubb.exam.server.repository.SensorRepository
